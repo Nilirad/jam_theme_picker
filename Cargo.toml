@@ -2,9 +2,8 @@
 name = "template"
 description = "A Bevy + mdbook enabled template repo to build on."
 version = "0.0.0"
-authors = ["Leafwing Studios"]
-homepage = "https://leafwing-studios.com"
-repository = "https://github.com/leafwing-studios/template-repo"
+authors = ["Nilirad"]
+repository = "https://github.com/Nilirad/jam_theme_picker"
 license = "MIT OR Apache-2.0"
 edition = "2021"
 categories = ["games", "game-development"]
@@ -12,8 +11,8 @@ keywords = ["bevy"]
 exclude = ["assets/**/*", "tools/**/*", ".github/**/*"]
 resolver = "2"
 
-[profile.dev]
-opt-level = 3
+#[profile.dev]
+#opt-level = 3
 
 [workspace]
 members = ["./", "tools/ci"]
@@ -40,8 +39,3 @@ path = "src/lib.rs"
 [[bin]]
 name = "template_bin"
 path = "src/main.rs"
-
-[[bench]]
-name = "entity_spawning"
-path = "benches/entity_spawning.rs"
-harness = false
