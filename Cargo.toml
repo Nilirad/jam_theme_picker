@@ -1,7 +1,7 @@
 [package]
-name = "template"
+name = "jam_theme_picker"
 description = "A Bevy + mdbook enabled template repo to build on."
-version = "0.0.0"
+version = "0.1.0"
 authors = ["Nilirad"]
 repository = "https://github.com/Nilirad/jam_theme_picker"
 license = "MIT OR Apache-2.0"

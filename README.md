@@ -4,6 +4,14 @@ A simple utility program to randomly pick up a string among a set provided throu
 
 Bevy project template generously provided by [Leafwing Studios](https://github.com/Leafwing-Studios/template-repo).
 
+## Installation
+
+Install this utility on your machine using cargo:
+
+```shell
+cargo install jam_theme_picker
+```
+
 ## Usage
 
 If you want to run the program from the repository, go to the directory of this README file, and run a command with the following form:
