@@ -6,10 +6,10 @@
 use bevy::prelude::*;
 use randomorg::Random;
 
-/// A plugin
-pub struct ThemePickerPlugin;
+/// The plugin that randomly chooses a theme among the ones provided in the command line.
+pub struct RandomThemePickerPlugin;
 
-impl Plugin for ThemePickerPlugin {
+impl Plugin for RandomThemePickerPlugin {
     fn build(&self, app: &mut App) {
         app.init_resource::<Themes>()
             .add_startup_system(setup_themes)
